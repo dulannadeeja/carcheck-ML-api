@@ -1,12 +1,15 @@
 from fastapi import HTTPException
 from fastapi import FastAPI
-from pydantic import BaseModel
 import pickle
 import pandas as pd  # Import pandas
 from predictor import CarPricePredictor
 from fastapi.middleware.cors import CORSMiddleware
+from routes.routes import router
 
 app = FastAPI()
+
+# connect router
+app.include_router(router)
  
 # define the path to the model
 model_path = 'model/model.pkl'
@@ -38,31 +41,3 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
 )
-
-
-class ModelInput(BaseModel):
-    make: str
-    model: str
-    manufacturedYear: int
-    registeredYear: int
-    mileage: int
-    previousOwners: int
-    exteriorColor: str
-    fuelType: str
-    condition: str
-    transmission: str
-    bodyType: str
-    engineCapacity: int
-
-@app.post("/api/predict")
-async def predict(data: ModelInput):
-    try:
-        print(data)
-        # Convert input to a dictionary for the predictor
-        input_features = data.dict()
-        predicted_price = predictor.predict_price(input_features)
-        return {"predicted_price" : predicted_price[0]}
-    
-    except Exception as e:
-        print(f"Error: {e}")
-        raise HTTPException(status_code=500, detail=str(e))

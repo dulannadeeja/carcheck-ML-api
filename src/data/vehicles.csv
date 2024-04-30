@@ -1,0 +1,680 @@
+make,vehicleModel,manufacturedYear,registeredYear,mileage,numberOfPreviousOwners,exteriorColor,fuelType,condition,transmission,bodyType,engineCapacity,value
+Toyota,prius,2012,2017,165000,3,white,Hybrid,used,Automatic,sedan,1800,9250000
+Toyota,Prius,2014,2017,95925,2,white,Hybrid,used,Automatic,Hatchback,1800,10475000
+Toyota,Prius,2012,2017,190000,2,White,Hybrid,used,Automatic,Saloon,1500,9500000
+Toyota,Prius,2008,2011,277000,3,Gray,Hybrid,used,Automatic,Saloon,1500,5695000
+Toyota,prius,2013,2014,210000,2,Black,Hybrid,used,Automatic,Hatchback,1800,8825000
+Toyota,prius,2009,2010,178500,2,white,Hybrid,used,other transmission,saloon,1800,7975000
+Toyota,prius,2008,2015,146000,2,Gray,Petrol,used,Automatic,Saloon,1500,6285000
+Toyota,prius,2012,2014,120000,1,Blue,Hybrid,used,Automatic,Hatchback,1790,8900000
+Toyota,prius,2013,2015,126000,3,Black,Petrol,used,Automatic,Hatchback,1800,9395000
+Toyota,prius,2010,2011,148000,3,Light Blue,Hybrid,used,Automatic,Hatchback,1800,7500000
+Toyota,prius,2016,2017,120000,2,white,Hybrid,used,Automatic,Saloon,1500,14500000
+Toyota,prius,2008,2009,114000,2,Black,Petrol,used,Automatic,Saloon,1500,6400000
+Toyota,prius,2012,2013,120000,3,Light Blue,Hybrid,used,Automatic,Hatchback,1800,8850000
+Toyota,prius,2012,2013,80000,2,white,Hybrid,used,Automatic,Saloon,1790,8390000
+Toyota,prius,2009,2010,124500,2,Red,Hybrid,used,Automatic,Saloon,1800,7950000
+Toyota,prius,2013,2014,104746,3,white,Hybrid,used,Automatic,Saloon,1790,10350000
+Toyota,prius,2012,2013,126342,2,Black,Hybrid,used,Automatic,Saloon,1700,8250000
+Toyota,prius,2013,2014,113000,2,Black,Hybrid,used,Automatic,Saloon,1800,9250000
+Toyota,prius,2014,2014,105000,2,Gray,Hybrid,used,Automatic,Saloon,1800,9100000
+Toyota,prius,2012,2014,122433,2,white,Hybrid,used,Automatic,Hatchback,1790,8990000
+Toyota,prius,2009,2010,136000,1,Gray,Petrol,used,Automatic,Saloon,1790,7585000
+Toyota,prius,2011,2013,176800,2,Red,Hybrid,used,Automatic,Saloon,1500,6190000
+Toyota,prius,2012,2013,96000,1,Pearl White,Hybrid,used,Automatic,Saloon,1800,8790000
+Toyota,prius,2011,2012,284000,3,Gray,Petrol,used,Automatic,Saloon,1500,5850000
+Toyota,prius,2008,2009,117600,2,white,Petrol,used,Automatic,Saloon,1500,5900000
+Toyota,prius,2013,2014,145821,2,white,Hybrid,used,Automatic,Saloon,1700,10450000
+Toyota,prius,2011,2012,106000,2,Blue,Hybrid,used,Automatic,Hatchback,1700,7975000
+Toyota,prius,2010,2011,186000,3,Blue,Hybrid,used,Automatic,Hatchback,1800,7500000
+Toyota,prius,2011,2012,157000,2,Gray,Hybrid,used,Automatic,Saloon,1500,6495000
+Toyota,prius,2015,2015,138000,2,Black,Hybrid,used,Automatic,Saloon,1500,8475000
+Toyota,prius,2013,2016,99800,1,Gray,Hybrid,used,Automatic,Saloon,1800,9400000
+Toyota,prius,2013,2014,95000,2,Black,Hybrid,used,Automatic,Saloon,1800,10000000
+Toyota,prius,2011,2013,166000,3,Black,Hybrid,used,Automatic,Saloon,1800,8250000
+Toyota,prius,2013,2014,91555,3,Black,Hybrid,used,Automatic,Saloon,1800,8950000
+Toyota,prius,2012,2013,180000,3,white,Hybrid,used,Automatic,Saloon,1500,8950000
+Toyota,prius,2016,2016,93000,1,Red,Hybrid,used,Automatic,Hatchback,1800,15500000
+Toyota,prius,2016,2017,120000,2,white,Hybrid,used,Automatic,Saloon,1500,14500000
+Toyota,prius,2012,2013,160000,2,Gray,Petrol,used,Automatic,Saloon,1800,8175000
+Toyota,prius,2012,2013,192000,2,Gray,Hybrid,used,Automatic,Saloon,1800,8300000
+Toyota,prius,2017,2018,62493,1,Black,Petrol,used,Automatic,Saloon,2000,18500000
+Toyota,prius,2008,2009,160000,1,Gray,Petrol,used,Automatic,Saloon,1490,5850000
+Toyota,prius,2014,2014,94600,1,Red,Petrol,used,Automatic,Hatchback,1800,9900000
+Toyota,prius,2012,2013,167000,1,Light Blue,Petrol,used,Automatic,Saloon,1800,8200000
+Toyota,prius,2013,2015,150000,2,white,Petrol,used,Automatic,Saloon,1790,10500000
+Toyota,prius,2007,2008,140000,2,Gray,Petrol,used,Automatic,Saloon,1490,6000000
+Toyota,prius,2009,2012,176500,2,Black,Hybrid,used,Automatic,Hatchback,1800,7975000
+Toyota,prius,2011,2012,100800,2,Gray,Petrol,used,Automatic,Saloon,1500,5700000
+Toyota,prius,2013,2014,140000,2,Red,Hybrid,used,Automatic,Saloon,1790,9300000
+Toyota,prius,2008,2009,109982,3,Black,Petrol,used,Automatic,Saloon,1500,5750000
+Toyota,prius,2008,2010,119506,3,white,Petrol,used,Automatic,Saloon,1500,5885000
+Toyota,prius,2009,2010,195000,3,Light Blue,Petrol,used,Automatic,Saloon,1350,6950000
+Toyota,prius,2010,2011,148000,2,Black,Hybrid,used,Automatic,Saloon,1800,7050000
+Toyota,prius,2012,2014,95000,1,white,Hybrid,used,Automatic,Hatchback,1800,9750000
+Toyota,prius,2010,2012,123000,2,Black,Petrol,used,Automatic,Saloon,1800,7775000
+Toyota,prius,2013,2014,142765,3,Gray,Hybrid,used,Automatic,Hatchback,1800,8575000
+Toyota,prius,2008,2010,117000,3,Pearl White,Hybrid,used,Automatic,Hatchback,1500,5790000
+Toyota,prius,2008,2009,120000,2,white,Hybrid,used,Automatic,Saloon,1500,4950000
+Toyota,prius,2007,2009,128000,3,white,Hybrid,used,Automatic,Hatchback,1500,5650000
+Toyota,prius,2013,2014,110000,2,Black,Hybrid,used,Automatic,Saloon,1790,8790000
+Toyota,prius,2013,2015,150000,3,Pearl White,Hybrid,used,Automatic,Saloon,1800,9790000
+Toyota,prius,2012,2014,141250,2,Red,Hybrid,used,Automatic,Saloon,1800,8450000
+Toyota,prius,2013,2014,107000,3,Gray,Hybrid,used,Automatic,Saloon,1800,9450000
+Toyota,prius,2016,2016,86700,1,Pearl White,Hybrid,used,Automatic,Hatchback,1800,14895000
+Toyota,prius,2012,2013,80000,1,white,Hybrid,used,Automatic,Hatchback,1791,8390000
+Toyota,prius,2007,2011,173000,3,Pearl White,Hybrid,used,Automatic,Saloon,1490,5950000
+Toyota,prius,2013,2014,126000,2,Black,Petrol,used,Automatic,Hatchback,1800,9395000
+Toyota,prius,2013,2014,142000,2,Gray,Hybrid,used,Automatic,Hatchback,1800,835000
+Toyota,prius,2010,2011,145000,2,Gray,Hybrid,used,Automatic,Saloon,1800,7450000
+Toyota,prius,2013,2016,103000,2,Pearl White,Hybrid,used,Automatic,Hatchback,1800,9750000
+Toyota,prius,2013,2015,114000,2,Red,Hybrid,used,Automatic,Hatchback,1800,8975000
+Toyota,prius,2006,2015,221000,3,Blue,Hybrid,used,Automatic,Saloon,1800,5450000
+Toyota,prius,2012,2014,174000,2,Black,Hybrid,used,Automatic,Saloon,1800,7595000
+Toyota,prius,2008,2011,166000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1500,7850000
+Toyota,prius,2011,2013,163000,2,Red,Hybrid,used,Automatic,Hatchback,1800,7695000
+Toyota,prius,2011,2012,175000,2,Pearl White,Petrol,used,Automatic,Saloon,1800,7665000
+Toyota,prius,2013,2015,127500,2,Light Blue,Hybrid,used,Automatic,Saloon,1790,9000000
+Toyota,prius,2011,2013,156000,3,Gray,Hybrid,used,Automatic,Saloon,1500,6495000
+Toyota,prius,2013,2014,171000,2,Black,Hybrid,used,Automatic,Hatchback,1800,8450000
+Toyota,prius,2016,2017,132000,2,white,Hybrid,used,Automatic,Hatchback,1790,12200000
+Toyota,prius,2008,2009,150000,2,Gray,Hybrid,used,Automatic,Saloon,1500,5300000
+Toyota,prius,2009,2012,120000,2,Blue,Hybrid,used,Automatic,Saloon,1800,7150000
+Toyota,prius,2011,2013,157000,3,Gray,Hybrid,used,Automatic,Saloon,1500,6390000
+Toyota,prius,2013,2014,132000,2,Black,Hybrid,used,Automatic,Hatchback,1800,8390000
+Toyota,prius,2013,2014,105000,1,white,Petrol,used,Automatic,Saloon,1800,9250000
+Toyota,prius,2008,2010,277000,3,Gray,Petrol,used,Automatic,Saloon,1500,5695000
+Toyota,prius,2013,2014,119000,2,Pearl White,Hybrid,used,Automatic,Hatchback,1800,9475000
+Toyota,prius,2011,2012,120000,2,white,Hybrid,used,Automatic,Hatchback,1800,7875000
+Toyota,prius,2014,2015,128000,3,Pearl White,Hybrid,used,Automatic,Hatchback,1800,10300000
+Toyota,prius,2013,2014,151000,2,silver,Hybrid,used,Automatic,Saloon,1800,8390000
+Toyota,prius,2013,2014,132000,3,Black,Hybrid,used,Automatic,Saloon,1790,9250000
+Toyota,prius,2011,2013,170000,3,Pearl White,Hybrid,used,Automatic,Saloon,1800,7950000
+Toyota,prius,2012,2015,143000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1800,8650000
+Toyota,prius,2013,2015,181000,3,Pearl White,Petrol,used,Automatic,Saloon,1800,10350000
+Toyota,prius,2012,2014,115000,2,Pearl White,Hybrid,used,Automatic,Saloon,1800,8575000
+Toyota,prius,2011,2013,215000,3,Blue,Petrol,used,Automatic,Saloon,1790,8155000
+Toyota,prius,2012,2013,120000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1790,8900000
+Toyota,prius,2012,2014,133000,2,white,Petrol,used,Automatic,Saloon,1800,8530000
+Toyota,prius,2013,2015,89000,1,silver,Hybrid,used,Automatic,Saloon,1800,9375000
+Toyota,prius,2013,2014,180000,3,silver,Hybrid,used,Automatic,Hatchback,1800,9200000
+Toyota,Axio,2016,2017,104000,1,Brown,Hybrid,used,Automatic,Saloon,1500,11290000
+Toyota,Axio,2015,2016,150000,1,white,Hybrid,used,Automatic,Saloon,1500,10600000
+Toyota,Axio,2017,2018,87127,1,white,Hybrid,used,Automatic,Saloon,1490,13190000
+Toyota,Axio,2017,2017,77500,1,white,Hybrid,used,Automatic,sedan,1490,13300000
+Toyota,Axio,2014,2015,126000,2,Wine Red,Hybrid,used,Automatic,Saloon,1500,9290000
+Toyota,Axio,2011,2013,140000,2,Gray,Petrol,used,Automatic,Saloon,1500,7950000
+Toyota,Axio,2014,2014,151000,2,Wine Red,Hybrid,used,Automatic,saloon,1450,9275000
+Toyota,Axio,2019,2019,50000,2,white,Hybrid,used,Automatic,saloon,1490,15990000
+Toyota,Axio,2015,2016,160000,2,Wine Red,Petrol,used,Automatic,Saloon,1500,11650000
+Toyota,Axio,2017,2018,98000,1,white,Petrol,used,Automatic,Saloon,1500,14950000
+Toyota,Aqua,2013,2014,181000,3,Blue,Hybrid,used,Automatic,Hatchback,1500,6750000
+Toyota,Aqua,2013,2013,140000,2,silver,Hybrid,used,Automatic,Hatchback,1500,6900000
+Toyota,Aqua,2013,2015,115000,2,silver,Hybrid,used,Automatic,Hatchback,1499,6950000
+Toyota,Aqua,2015,2016,98000,1,silver,Petrol,used,Automatic,Hatchback,1500,9075000
+Toyota,Aqua,2013,2014,135000,2,white,Hybrid,used,Automatic,Hatchback,1500,7950000
+Toyota,Aqua,2015,2016,87000,1,white,Hybrid,used,Automatic,Hatchback,1000,8790000
+Toyota,Aqua,2013,2015,104000,1,Black,Hybrid,used,Automatic,Hatchback,1500,7550000
+Toyota,Aqua,2014,2015,139000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1500,7375000
+Toyota,Aqua,2012,2013,147000,2,Orange,Petrol,used,Automatic,Hatchback,1490,6575000
+Toyota,Aqua,2012,2013,136000,2,Red,Hybrid,used,Automatic,Hatchback,1500,6600000
+Toyota,Aqua,2012,2014,106000,1,Black,Hybrid,used,Automatic,Hatchback,1500,6875000
+Toyota,Aqua,2013,2015,123000,2,Light Blue,Petrol,used,Automatic,Hatchback,1500,7475000
+Toyota,Aqua,2013,2015,109000,2,Black,Petrol,used,Automatic,Hatchback,1500,7275000
+Toyota,Aqua,2013,2014,152000,3,white,Hybrid,used,Automatic,Hatchback,1500,6990000
+Toyota,Aqua,2014,2015,59000,1,Orange,Hybrid,used,Automatic,Hatchback,1500,7790000
+Toyota,Aqua,2014,2016,130000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1500,7480000
+Toyota,Aqua,2015,2016,116000,2,white,Petrol,used,Automatic,Hatchback,1500,8750000
+Toyota,Aqua,2015,2017,117000,2,white,Hybrid,used,Automatic,Hatchback,1500,8990000
+Toyota,Aqua,2015,2016,140000,2,Black,Petrol,used,Automatic,Hatchback,1500,9050000
+Toyota,Aqua,2015,2016,89000,1,white,Hybrid,used,Automatic,Hatchback,1500,9090000
+Toyota,Premio,2013,2013,96000,1,white,Petrol,used,Automatic,Saloon,1500,10975000
+Toyota,Premio,2012,2013,178000,2,Black,Petrol,used,Automatic,Saloon,1500,12900000
+Toyota,Premio,2018,2018,84000,1,Light Green,Petrol,used,Automatic,Saloon,1500,17950000
+Toyota,Premio,2014,2014,238600,3,Dark Red,Petrol,used,Automatic,Saloon,1500,12500000
+Toyota,Premio,2014,2015,70000,1,white,Petrol,used,Automatic,Saloon,1500,12475000
+Toyota,Premio,2019,2019,50000,1,Pearl White,Petrol,used,Automatic,Saloon,1500,19400000
+Toyota,Premio,2019,2019,38500,1,Pearl White,Petrol,used,Automatic,Saloon,1490,18450000
+Toyota,Premio,2013,2014,165000,3,white,Petrol,used,Automatic,Saloon,1500,12390000
+Toyota,Premio,2018,2019,78000,1,Pearl White,Petrol,used,Automatic,Saloon,1500,18550000
+Toyota,Premio,2016,2016,95000,1,white,Petrol,used,Automatic,Saloon,1500,16200000
+Toyota,Premio,2018,2018,52000,1,white,Petrol,used,Automatic,Saloon,1500,18000000
+Toyota,Premio,2014,2015,130000,2,Blue,Petrol,used,Automatic,Saloon,1500,12300000
+Toyota,Premio,2010,2011,130000,2,Pearl White,Petrol,used,Automatic,Saloon,1790,10450000
+Toyota,Premio,2011,2011,160000,3,Black,Petrol,used,Automatic,Saloon,1490,11000000
+Toyota,Premio,2019,2019,60000,1,Pearl White,Petrol,used,Automatic,Saloon,1500,19000000
+Toyota,Premio,2014,2015,110000,2,Black,Petrol,used,Automatic,Saloon,1500,13400000
+Toyota,Premio,2013,2013,136000,2,Pearl White,Petrol,used,Automatic,Saloon,1500,12450000
+Toyota,Premio,2017,2017,131000,2,Red,Petrol,used,Automatic,Saloon,1500,16500000
+Toyota,Premio,2014,2015,158000,3,Gray,Petrol,used,Automatic,Saloon,1500,12200000
+Toyota,Premio,2013,2014,100000,2,Brown,Petrol,used,Automatic,Saloon,1500,12975000
+Toyota,Vitz,2017,2018,84000,1,Black,Petrol,used,Automatic,Hatchback,1000,8390000
+Toyota,Vitz,2017,2017,65000,1,white,Petrol,used,Automatic,Hatchback,1000,7990000
+Toyota,Vitz,2016,2018,67000,1,Light blue,Petrol,used,Automatic,Hatchback,1000,7690000
+Toyota,Vitz,2019,2020,31000,1,white,Petrol,used,Automatic,Hatchback,1000,9590000
+Toyota,Vitz,2015,2019,55000,1,Red,Petrol,used,Automatic,Hatchback,1000,7500000
+Toyota,Vitz,2015,2018,80000,1,Brown,Petrol,used,Automatic,Hatchback,990,7450000
+Toyota,Vitz,2017,2020,90000,1,Gray,Petrol,used,Automatic,Hatchback,1000,8250000
+Toyota,Vitz,2015,2015,30000,1,Black,Petrol,used,Automatic,Hatchback,1000,7790000
+Toyota,Vitz,2018,2019,45000,1,Black,Petrol,used,Automatic,Hatchback,1000,9390000
+Toyota,Vitz,2018,2019,25000,1,white,Petrol,used,Automatic,Hatchback,1000,9390000
+Toyota,Vitz,2015,2018,49000,1,Red,Petrol,used,Automatic,Hatchback,1000,7990000
+Toyota,Vitz,2008,2011,113000,2,white,Petrol,used,Automatic,Hatchback,990,5690000
+Toyota,Vitz,2019,2020,42000,1,white,Petrol,used,Automatic,Hatchback,1000,9575000
+Toyota,Vitz,2016,2019,68000,1,Black,Petrol,used,Automatic,Hatchback,1000,7750000
+Toyota,Vitz,2007,2007,127000,2,silver,Petrol,used,Automatic,Hatchback,1000,5075000
+Toyota,Vitz,2015,2018,120000,2,Blue,Petrol,used,Automatic,Hatchback,1000,7150000
+Toyota,Vitz,2007,2011,151000,3,Black,Petrol,used,Automatic,Hatchback,1000,5350000
+Toyota,Vitz,2008,2011,115000,2,Light Blue,Petrol,used,Automatic,Hatchback,1000,5690000
+Toyota,Vitz,2007,2010,171000,3,silver,Petrol,used,Automatic,Hatchback,1000,4915000
+Toyota,Vitz,2016,2018,67000,1,Light Blue,Petrol,used,Automatic,Hatchback,1000,7690000
+Toyota,Vitz,2019,2020,31000,1,white,Petrol,used,Automatic,Hatchback,1000,9590000
+Toyota,Vitz,2015,2019,55000,1,Red,Petrol,used,Automatic,Hatchback,1000,7500000
+Toyota,Vitz,2015,2018,80000,1,Brown,Petrol,used,Automatic,Hatchback,990,7450000
+Toyota,Vitz,2017,2020,90000,1,Gray,Petrol,used,Automatic,Hatchback,1000,8250000
+Toyota,Vitz,2007,2010,156860,3,silver,Petrol,used,Automatic,Hatchback,1000,4890000
+Toyota,Vitz,2007,2011,133000,3,Red,Petrol,used,Automatic,Hatchback,1000,5150000
+Toyota,Vitz,2008,2010,145000,2,Red,Petrol,used,Automatic,Hatchback,1000,5175000
+Toyota,Vitz,2015,2015,30000,1,Black,Petrol,used,Automatic,Hatchback,1000,7790000
+Toyota,Vitz,2018,2019,45000,1,Black,Petrol,used,Automatic,Hatchback,1000,9390000
+Toyota,Vitz,2018,2018,25000,1,white,Petrol,used,Automatic,Hatchback,1000,9390000
+Toyota,Vitz,2015,2018,49000,1,Red,Petrol,used,Automatic,Hatchback,1000,7990000
+Toyota,Vitz,2008,2011,113000,2,white,Petrol,used,Automatic,Hatchback,1000,5690000
+Toyota,Vitz,2018,2019,42000,1,white,Petrol,used,Automatic,Hatchback,1000,9575000
+Toyota,Vitz,2016,2018,73000,1,Blue,Petrol,used,Automatic,Hatchback,990,7150000
+Toyota,Vitz,2015,2015,109500,2,Black,Petrol,used,Automatic,Hatchback,1000,6885000
+Toyota,Vitz,2009,2009,96000,2,silver,Petrol,used,Automatic,Hatchback,1000,5350000
+Toyota,Vitz,2015,2019,55000,1,Red,Petrol,used,Automatic,Hatchback,1000,7500000
+Toyota,Vitz,2017,2017,41000,1,Red,Petrol,used,Automatic,Hatchback,1000,8590000
+Toyota,Vitz,2010,2011,62000,1,Black,Petrol,used,Automatic,Hatchback,1000,5800000
+Toyota,Vitz,2014,2017,116717,2,Light Blue,Petrol,used,Automatic,Hatchback,990,7190000
+Toyota,Vitz,2016,2018,63000,1,Black,Petrol,used,Automatic,Hatchback,1000,7950000
+Toyota,Vitz,2008,2011,134335,3,Blue,Petrol,used,Automatic,Hatchback,1300,5990000
+Toyota,Vitz,2007,2011,133000,3,Red,Petrol,used,Automatic,Hatchback,1000,5150000
+Toyota,Vitz,2016,2019,75000,2,silver,Petrol,used,Automatic,Hatchback,1000,7475000
+Toyota,Vitz,2018,2019,42000,1,white,Petrol,used,Automatic,Hatchback,1000,8700000
+Toyota,Vitz,2015,2016,80000,2,silver,Petrol,used,Automatic,Hatchback,1000,7265000
+Toyota,Vitz,2015,2018,85000,2,white,Petrol,used,Automatic,Hatchback,1000,8150000
+Toyota,Vitz,2017,2018,84000,2,Black,Petrol,used,Automatic,Hatchback,1000,8390000
+Toyota,Vitz,2016,2018,67000,1,Light Blue,Petrol,used,Automatic,Hatchback,1000,7690000
+Toyota,Vitz,2019,2020,31000,1,white,Petrol,used,Automatic,Hatchback,1000,9590000
+Toyota,Vitz,2015,2018,80000,2,Black,Petrol,used,Automatic,Hatchback,990,7450000
+Toyota,Vitz,2017,2020,90000,2,silver,Petrol,used,Automatic,Hatchback,1000,8250000
+Toyota,Vitz,2006,2008,122000,3,silver,Petrol,used,Automatic,Hatchback,1000,3990000
+Toyota,Vitz,2007,2010,156860,3,silver,Petrol,used,Automatic,Hatchback,1000,4890000
+Toyota,Vitz,2008,2009,145000,3,Red,Petrol,used,Automatic,Hatchback,1000,5175000
+Toyota,Vitz,2015,2016,30000,1,Black,Petrol,used,Automatic,Hatchback,1000,7790000
+Toyota,Vitz,2018,2018,45000,1,Black,Petrol,used,Automatic,Hatchback,1000,9390000
+Toyota,Vitz,2008,2011,113000,3,white,Petrol,used,Automatic,Hatchback,1000,5490000
+Toyota,Vitz,2016,2019,68000,2,Black,Petrol,used,Automatic,Hatchback,1000,7750000
+Toyota,Vitz,2007,2009,127000,3,silver,Petrol,used,Automatic,Hatchback,1000,5075000
+Toyota,Vitz,2015,2018,120000,3,Blue,Petrol,used,Automatic,Hatchback,1000,7150000
+Toyota,Vitz,2007,2011,151000,3,Black,Petrol,used,Automatic,Hatchback,1000,5350000
+Toyota,Vitz,2007,2010,134000,3,white,Petrol,used,Automatic,Hatchback,1000,5690000
+Toyota,Vitz,2019,2019,61000,2,white,Petrol,used,Automatic,Hatchback,1000,9650000
+Toyota,Vitz,2016,2019,94000,2,silver,Petrol,used,Automatic,Hatchback,990,7550000
+Toyota,Vitz,2008,2011,131000,3,Black,Petrol,used,Automatic,Hatchback,1000,5550000
+Toyota,Vitz,2002,2002,81000,2,Blue,Petrol,used,Automatic,Hatchback,1000,3885000
+Toyota,Vitz,2001,2005,110000,3,white,Petrol,used,Automatic,Hatchback,1000,3725000
+Toyota,Vitz,2007,2010,133000,3,silver,Petrol,used,Automatic,Hatchback,1300,5650000
+Toyota,Vitz,2017,2019,63000,1,silver,Petrol,used,Automatic,Hatchback,1000,8390000
+Toyota,Vitz,2018,2019,46000,1,Black,Petrol,used,Automatic,Hatchback,1000,8825000
+Toyota,Vitz,2015,2015,85000,2,white,Petrol,used,Automatic,Hatchback,1000,7875000
+Toyota,Vitz,2017,2020,23000,1,white,Petrol,used,Automatic,Hatchback,1000,8600000
+Toyota,Vitz,2017,2019,53000,2,Blue,Petrol,used,Automatic,Hatchback,1000,8350000
+Toyota,Vitz,2007,2009,112500,3,Black,Petrol,used,Automatic,Hatchback,1000,5200000
+Toyota,Vitz,2016,2016,110000,3,Blue,Petrol,used,Automatic,Hatchback,1000,7475000
+Toyota,Vitz,2010,2011,123000,3,white,Petrol,used,Automatic,Hatchback,1000,5275000
+Toyota,Vitz,2016,2016,35000,1,Pearl White,Petrol,used,Automatic,Hatchback,1000,7890000
+Toyota,Vitz,2015,2018,88000,1,Pearl White,Petrol,used,Automatic,Hatchback,1000,7590000
+Toyota,Vitz,2016,2018,70000,1,Black,Petrol,used,Automatic,Hatchback,990,7425000
+Toyota,Vitz,2015,2018,102573,2,Black,Petrol,used,Automatic,Hatchback,990,7590000
+Toyota,Vitz,2019,2019,43000,1,white,Petrol,used,Automatic,Hatchback,990,9690000
+Toyota,Vitz,2017,2020,79960,2,Black,Petrol,used,Automatic,Hatchback,990,8450000
+Toyota,Vitz,2017,2019,36500,1,Black,Petrol,used,Automatic,Hatchback,1300,8100000
+Toyota,Vitz,2008,2011,115000,3,Light blue,Petrol,used,Automatic,Hatchback,1000,5590000
+Toyota,Vitz,2000,2003,197000,3,silver,Petrol,used,Automatic,Hatchback,1000,3650000
+Toyota,Vitz,2018,2018,59000,1,Pearl White,Petrol,used,Automatic,Hatchback,1000,9075000
+Toyota,Vitz,2018,2018,52000,1,white,Petrol,used,Automatic,Hatchback,1000,8865000
+Toyota,Vitz,2016,2017,100000,2,silver,Petrol,used,Automatic,Hatchback,1000,7390000
+Toyota,Vitz,2017,2019,58500,1,Black,Petrol,used,Automatic,Hatchback,1000,8350000
+Toyota,Vitz,2018,2018,40000,1,Pearl White,Petrol,used,Automatic,Hatchback,1000,9090000
+Toyota,Vitz,2015,2018,120000,2,silver,Petrol,used,Automatic,Hatchback,1000,7450000
+Toyota,Vitz,2016,2019,80000,2,Pearl White,Petrol,used,Automatic,Hatchback,1000,7600000
+Toyota,Vitz,2018,2019,34000,1,Black,Petrol,used,Automatic,Hatchback,1000,9350000
+Toyota,Vitz,2017,2018,85000,2,Black,Petrol,used,Automatic,Hatchback,1000,8275000
+Toyota,Vitz,2015,2018,74000,2,Black,Petrol,used,Automatic,Hatchback,1000,7250000
+Toyota,Vitz,2015,2017,74987,2,silver,Petrol,used,Automatic,Hatchback,1000,7590000
+Toyota,Vitz,2016,2018,55000,1,Pearl White,Petrol,used,Automatic,Hatchback,1000,7950000
+Toyota,Vitz,2018,2020,55000,1,Pearl White,Petrol,used,Automatic,Hatchback,1000,9450000
+Toyota,Vitz,2017,2019,75132,2,Black,Petrol,used,Automatic,Hatchback,990,8350000
+Toyota,Camry,2002,2006,234000,3,Black,Petrol,used,Automatic,Saloon,1998,5450000
+Toyota,Camry,2013,2016,89200,1,Red,Hybrid,used,Automatic,Saloon,2500,13850000
+Toyota,Camry,2004,2006,303000,4,Gray,Petrol,used,Automatic,Saloon,2400,5900000
+Toyota,Camry,2007,2007,102400,2,Black,Petrol,used,Automatic,Saloon,2300,7750000
+Toyota,Camry,2008,2008,174000,3,Black,Petrol,used,Automatic,Saloon,2400,7650000
+Toyota,Camry,2003,2004,187000,3,Brown,Petrol,used,Automatic,Saloon,3000,4600000
+Toyota,Camry,2012,2013,62000,1,white,Petrol,used,Automatic,Saloon,2494,1200000
+Toyota,Camry,2012,2012,63000,1,white,Petrol,used,Automatic,Saloon,2400,5650000
+Toyota,Camry,2007,2007,120000,2,Brown,Petrol,used,Automatic,Saloon,2300,7950000
+Toyota,Camry,2002,2003,252000,3,white,Petrol,used,Automatic,Saloon,2000,4500000
+Toyota,CHR,2017,2017,72000,1,Black,Petrol,used,Automatic,Hatchback,1200,14150000
+Toyota,CHR,2018,2018,35000,3,white,Petrol,used,Automatic,Hatchback,1200,14850000
+Toyota,CHR,2020,2020,40000,2,silver,Petrol,used,Automatic,Hatchback,1200,18490000
+Toyota,CHR,2017,2018,31128,1,white,Petrol,used,Automatic,Hatchback,1200,14200000
+Toyota,CHR,2018,2018,70000,1,Red,Petrol,used,Automatic,Hatchback,1200,14950000
+Toyota,CHR,2018,2018,46000,1,Maroon,Petrol,used,Automatic,Hatchback,1200,16750000
+Toyota,CHR,2018,2019,46000,1,white,Petrol,used,Automatic,Hatchback,1200,17190000
+Toyota,CHR,2017,2018,109000,2,white,Hybrid,used,Automatic,Hatchback,1800,15750000
+Toyota,CHR,2016,2017,70000,1,Black,Petrol,used,Automatic,Station Wagon,1200,14190000
+Toyota,CHR,2018,2019,65000,1,white,Petrol,used,Automatic,Station Wagon,1200,14990000
+Toyota,CHR,2017,2018,137000,2,Black,Petrol,used,Automatic,Hatchback,1200,13750000
+Toyota,CHR,2019,2020,43000,2,Red,Petrol,used,Automatic,Station Wagon,1200,16700000
+Toyota,CHR,2018,2020,41000,3,Black,Petrol,used,Automatic,Hatchback,1200,16250000
+Toyota,CHR,2017,2018,89000,2,white,Petrol,used,Automatic,Station Wagon,1200,13995000
+Toyota,CHR,2018,2018,50000,1,Red,Petrol,used,Automatic,Hatchback,1200,16500000
+Toyota,CHR,2017,2018,58000,1,Brown,Petrol,used,Automatic,Station Wagon,1200,13900000
+Toyota,CHR,2018,2018,75000,1,white,Petrol,used,Automatic,Station Wagon,1200,14990000
+Toyota,CHR,2017,2018,137000,2,Black,Petrol,used,Automatic,Hatchback,1200,13750000
+Toyota,CHR,2019,2020,43000,2,Red,Petrol,used,Automatic,Station Wagon,1200,16700000
+Toyota,CHR,2018,2020,41000,2,Black,Petrol,used,Automatic,Station Wagon,1200,16250000
+Toyota,CHR,2017,2017,89000,2,white,Petrol,used,Automatic,Hatchback,1200,13995000
+Toyota,CHR,2018,2018,50000,1,Red,Petrol,used,Automatic,Station Wagon,1200,16500000
+Toyota,CHR,2017,2018,58000,1,Brown,Petrol,used,Automatic,Hatchback,1200,13900000
+Toyota,CHR,2018,2020,75000,2,white,Petrol,used,Automatic,Station Wagon,1200,14990000
+Toyota,CHR,2018,2020,32000,1,Gray,Petrol,used,Automatic,Station Wagon,1200,15390000
+Toyota,CHR,2019,2020,56136,1,silver,Petrol,used,Automatic,Hatchback,1190,15850000
+Toyota,CHR,2018,2019,54200,1,Pearl White,Petrol,used,Automatic,Station Wagon,1200,16750000
+Toyota,CHR,2017,2018,70000,1,Pearl White,Petrol,used,Automatic,Hatchback,1200,14090000
+Toyota,CHR,2018,2018,52000,1,Pearl White,Petrol,used,Automatic,Hatchback,1200,16500000
+Toyota,CHR,2018,2019,55000,1,Pearl White,Petrol,used,Automatic,Hatchback,1200,15500000
+Toyota,CHR,2017,2018,87000,1,Gray,Petrol,used,Automatic,Station Wagon,1200,13850000
+Toyota,CHR,2017,2018,56000,1,Brown,Petrol,used,Automatic,Hatchback,1200,13800000
+Toyota,CHR,2018,2020,39500,1,Black,Petrol,used,Automatic,Hatchback,1200,15075000
+Toyota,CHR,2017,2019,55000,2,Red,Petrol,used,Automatic,Station Wagon,1200,14390000
+Toyota,CHR,2017,2018,39000,1,white,Petrol,used,Automatic,Hatchback,1200,14500000
+Toyota,CHR,2016,2016,85268,3,Pearl White,Petrol,used,Automatic,Hatchback,1190,13000000
+Toyota,CHR,2018,2018,50000,2,Red,Petrol,used,Automatic,Station Wagon,1200,16800000
+Toyota,CHR,2017,2018,86000,2,white,Petrol,used,Automatic,Hatchback,1200,13600000
+Toyota,CHR,2017,2018,115000,3,Red,Petrol,used,Automatic,Hatchback,1200,13800000
+Toyota,CHR,2017,2018,64000,1,Pearl White,Petrol,used,Automatic,Station Wagon,1300,13500000
+Toyota,Belta,2008,2011,145000,3,silver,Petrol,used,Automatic,Saloon,1300,6075000
+Toyota,Belta,2008,2010,110000,2,Pearl White,Petrol,used,Automatic,Saloon,1300,6150000
+Toyota,Belta,2010,2011,171300,3,Light blue,Petrol,used,Automatic,Saloon,1300,6495000
+Toyota,Belta,2008,2010,120000,2,silver,Petrol,used,Automatic,Saloon,1300,6550000
+Toyota,Belta,2007,2009,115000,2,silver,Petrol,used,Automatic,Saloon,990,2600000
+Toyota,Belta,2010,2011,124000,2,Green,Petrol,used,Automatic,Saloon,1300,6975000
+Toyota,Belta,2010,2012,168000,2,Pearl White,Petrol,used,Automatic,Saloon,1300,6275000
+Toyota,Belta,2008,2010,180000,2,Pearl White,Petrol,used,Automatic,Saloon,1300,6450000
+Toyota,Belta,2008,2012,121000,2,Gray,Petrol,used,Automatic,Saloon,1300,6300000
+Toyota,Belta,2010,2012,139000,3,Light blue,Petrol,used,Automatic,Saloon,1000,6390000
+Toyota,Belta,2008,2010,145000,3,Light blue,Petrol,used,Automatic,Saloon,1000,5775000
+Toyota,Belta,2010,2012,150000,3,silver,Petrol,used,Automatic,Saloon,1300,6450000
+Toyota,Belta,2009,2011,159000,3,Light blue,Petrol,used,Automatic,Saloon,1300,6370000
+Toyota,Belta,2009,2010,120000,1,Light blue,Petrol,used,Automatic,Saloon,1000,6375000
+Toyota,Belta,2009,2011,70500,1,silver,Petrol,used,Automatic,Saloon,1000,6450000
+Toyota,Yaris,2007,2007,135000,2,Black,Petrol,used,Automatic,Saloon,1300,5975000
+Toyota,Yaris,2020,2020,17500,2,Red,Petrol,used,Automatic,Hatchback,1000,11200000
+Toyota,Yaris,2011,2012,121000,2,Green,Petrol,used,Automatic,Saloon,1300,6775000
+Toyota,Yaris,2019,2019,73988,2,Black,Petrol,used,Automatic,Saloon,1197,13950000
+Toyota,Yaris,2014,2014,92000,1,white,Petrol,used,Automatic,Saloon,1300,8975000
+Toyota,Yaris,2011,2012,200000,3,white,Petrol,used,Automatic,Saloon,1298,6250000
+Toyota,Yaris,2008,2009,151000,1,silver,Petrol,used,Automatic,Saloon,1300,5890000
+Toyota,Yaris,2008,2009,130000,2,white,Petrol,used,Automatic,Saloon,1300,5600000
+Toyota,Yaris,2010,2011,80000,1,Pearl White,Petrol,used,Automatic,Hatchback,1300,6500000
+Toyota,Yaris,2010,2012,65000,1,silver,Petrol,used,Automatic,Hatchback,1300,6950000
+Toyota,Allion,2008,2011,140000,2,Black,Petrol,used,Automatic,Saloon,1500,8175000
+Toyota,Allion,2011,2013,157200,1,Pearl White,Petrol,used,Automatic,Saloon,1500,10700000
+Toyota,Allion,2011,2011,170000,1,Wine Red,Petrol,used,Automatic,Saloon,1500,10150000
+Toyota,Allion,2007,2010,135945,3,Maroon,Petrol,used,Automatic,Saloon,1500,8150000
+Toyota,Allion,2010,2011,157000,3,Black,Petrol,used,Automatic,Saloon,1500,8975000
+Toyota,Allion,2008,2011,105000,2,Pearl White,Petrol,used,Automatic,Saloon,1500,8550000
+Toyota,Allion,2007,2008,142000,2,silver,Petrol,used,Automatic,Saloon,1500,8150000
+Toyota,Allion,2016,2017,100000,2,white,Petrol,used,Automatic,Saloon,1500,15500000
+Toyota,Allion,2013,2014,150000,2,Pearl White,Petrol,used,Automatic,Saloon,1500,11200000
+Toyota,Allion,2010,2011,98000,1,Brown,Petrol,used,Automatic,Saloon,1500,9990000
+Toyota,Allion,2010,2012,125000,2,Pearl White,Petrol,used,Automatic,Saloon,1500,10350000
+Toyota,Allion,2008,2010,77600,1,Light blue,Petrol,used,Automatic,Saloon,1500,8790000
+Toyota,Allion,2006,2008,151000,3,silver,Petrol,used,Automatic,Saloon,1500,7325000
+Toyota,Allion,2006,2008,173000,3,Blue,Petrol,used,Automatic,Saloon,1500,6950000
+Toyota,Allion,2013,2014,84000,2,white,Petrol,used,Automatic,Saloon,1500,11200000
+Toyota,Allion,2003,2005,168000,2,silver,Petrol,used,Automatic,Saloon,1500,6450000
+Toyota,Allion,2007,2010,112000,3,white,Petrol,used,Automatic,Saloon,1500,8390000
+Toyota,Allion,2010,2013,150000,3,Pearl White,Petrol,used,Automatic,Saloon,1500,9850000
+Toyota,Allion,2007,2007,132000,2,Blue,Petrol,used,Automatic,Saloon,1500,8395000
+Toyota,Allion,2008,2010,160000,3,silver,Petrol,used,Automatic,Saloon,1500,8575000
+Toyota,Allion,2011,2011,121000,2,Maroon,Petrol,used,Automatic,Saloon,1500,11500000
+Toyota,Allion,2010,2012,210000,3,Black,Petrol,used,Automatic,Saloon,1500,9475000
+Toyota,Allion,2002,2004,160000,3,silver,Petrol,used,Automatic,Saloon,1500,6165000
+Toyota,Allion,2011,2011,106000,2,Maroon,Petrol,used,Automatic,Saloon,1500,10600000
+Toyota,Allion,2016,2018,95000,1,white,Petrol,used,Automatic,Saloon,1500,15675000
+Toyota,Allion,2010,2010,150000,2,Brown,Petrol,used,Automatic,Saloon,1490,9850000
+Toyota,Allion,2011,2013,149000,2,Maroon,Petrol,used,Automatic,Saloon,1500,10300000
+Toyota,Allion,2013,2015,211000,3,Red,Petrol,used,Automatic,Saloon,1500,11850000
+Toyota,Allion,2010,2012,189000,2,Black,Petrol,used,Automatic,Saloon,1500,9450000
+Toyota,Allion,2016,2018,47000,1,Pearl White,Petrol,used,Automatic,Saloon,1500,15850000
+Toyota,Allion,2012,2013,130000,2,white,Petrol,used,Automatic,Saloon,1500,10650000
+Toyota,Allion,2007,2010,164000,2,Black,Petrol,used,Automatic,Saloon,1800,8125000
+Toyota,Allion,2013,2013,83000,1,Black,Petrol,used,Automatic,Saloon,1500,13000000
+Toyota,Allion,2004,2006,167500,2,silver,Petrol,used,Automatic,Saloon,1500,6590000
+Toyota,Allion,2003,2005,168000,2,silver,Petrol,used,Automatic,Saloon,1500,5800000
+Toyota,Allion,2013,2014,157000,2,white,Petrol,used,Automatic,Saloon,1500,11650000
+Toyota,Allion,2007,2012,142000,2,Pearl White,Petrol,used,Automatic,Saloon,1500,9150000
+Toyota,Allion,2008,2011,82000,1,white,Petrol,used,Automatic,Saloon,1500,10005000
+Toyota,Allion,2016,2017,77400,1,Brown,Petrol,used,Automatic,Saloon,1500,15200000
+Toyota,Allion,2007,2011,150000,2,Blue,Petrol,used,Automatic,Saloon,1500,8450000
+Toyota,Allion,2006,2008,220000,3,Pearl White,Petrol,used,Automatic,Saloon,1500,8250000
+Toyota,Allion,2012,2015,188500,3,Brown,Petrol,used,Automatic,Saloon,1500,9550000
+Toyota,Allion,2007,2010,129000,2,Black,Petrol,used,Automatic,Saloon,1500,8750000
+Toyota,Allion,2016,2018,32000,1,Black,Petrol,used,Automatic,Saloon,1500,16600000
+Toyota,Allion,2010,2013,128477,2,Black,Petrol,used,Automatic,Saloon,1490,11700000
+Toyota,Allion,2007,2011,178000,2,silver,Petrol,used,Automatic,Saloon,1500,8400000
+Toyota,Allion,2002,2005,160000,2,Black,Petrol,used,Automatic,Saloon,1790,5475000
+Toyota,Allion,2010,2011,130000,2,Brown,Petrol,used,Automatic,Saloon,1490,9850000
+Toyota,Allion,2011,2013,149000,2,Brown,Petrol,used,Automatic,Saloon,1500,10300000
+Toyota,Allion,2013,2015,211000,3,Maroon,Petrol,used,Automatic,Saloon,1500,11850000
+Toyota,Allion,2010,2012,189000,2,Black,Petrol,used,Automatic,Saloon,1500,9450000
+Toyota,Allion,2016,2018,47000,1,Pearl White,Petrol,used,Automatic,Saloon,1490,15850000
+Toyota,Allion,2012,2015,130000,2,white,Petrol,used,Automatic,Saloon,1500,10650000
+Toyota,Allion,2007,2010,164000,3,Black,Petrol,used,Automatic,Saloon,1800,8125000
+Toyota,Allion,2013,2015,83000,1,Maroon,Petrol,used,Automatic,Saloon,1500,13000000
+Toyota,Allion,2004,2006,167500,4,silver,Petrol,used,Automatic,Saloon,1500,6590000
+Toyota,Allion,2003,2003,168000,2,silver,Petrol,used,Automatic,Saloon,1500,5800000
+Toyota,Allion,2013,2015,157000,3,Pearl White,Petrol,used,Automatic,Saloon,1500,11650000
+Toyota,Allion,2007,2012,142000,1,white,Petrol,used,Automatic,Saloon,1500,9150000
+Toyota,Allion,2008,2011,82000,1,white,Petrol,used,Automatic,Saloon,1500,10005000
+Toyota,Allion,2016,2017,77400,1,Brown,Petrol,used,Automatic,Saloon,1490,15200000
+Toyota,Allion,2007,2011,150000,1,Blue,Petrol,used,Automatic,Saloon,1490,8450000
+Toyota,Allion,2006,2008,220000,4,white,Petrol,used,Automatic,Saloon,1500,8250000
+Toyota,Allion,2012,2014,188500,2,Black,Petrol,used,Automatic,Saloon,1500,9550000
+Toyota,Allion,2007,2010,129000,3,Black,Petrol,used,Automatic,Saloon,1500,8750000
+Toyota,Allion,2016,2018,32000,1,Blue,Petrol,used,Automatic,Saloon,1500,16600000
+Toyota,Allion,2010,2011,128477,2,Brown,Petrol,used,Automatic,Saloon,1490,11700000
+Toyota,Allion,2007,2011,178000,3,silver,Petrol,used,Automatic,Saloon,1500,8400000
+Toyota,Allion,2002,2004,160000,2,Gray,Petrol,used,Automatic,Saloon,1790,5475000
+Toyota,Allion,2010,2011,130000,2,Maroon,Petrol,used,Automatic,Saloon,1490,9850000
+Toyota,Allion,2006,2008,216000,4,Blue,Petrol,used,Automatic,Saloon,1490,7400000
+Toyota,Allion,2008,2010,176283,3,Gray,Petrol,used,Automatic,Saloon,1500,8450000
+Toyota,Allion,2009,2011,150000,3,white,Petrol,used,Automatic,Saloon,1500,8890000
+Toyota,Allion,2013,2015,76000,1,Maroon,Petrol,used,Automatic,Saloon,1500,11700000
+Toyota,Allion,2007,2009,145000,2,Pearl White,Petrol,used,Automatic,Saloon,1500,8300000
+Toyota,Hilux,2008,2008,163000,3,Black,Diesel,used,Manual,Suv / 4*4,2494,6190000
+Toyota,Hilux,2017,2018,84000,2,Red,Diesel,used,Automatic,Suv / 4*4,3000,28500000
+Toyota,Hilux,2012,2015,162000,3,white,Diesel,used,Automatic,Hatchback,3000,14250000
+Toyota,Hilux,1996,2000,270000,4,white,Diesel,used,Manual,Suv / 4*4,2500,3590000
+Toyota,Hilux,1991,1995,300000,4,Red,Diesel,used,Manual,Suv / 4*4,2770,4750000
+Toyota,Hilux,2018,2018,51000,2,Black,Diesel,used,Automatic,Suv / 4*4,2800,28800000
+Toyota,Hilux,2005,2009,183000,3,silver,Diesel,used,Manual,Suv / 4*4,3000,5200000
+Toyota,Hilux,2012,2018,182000,3,Black,Diesel,used,Automatic,Suv / 4*4,3000,13500000
+Toyota,Hilux,2002,2003,98900,2,white,Diesel,used,Manual,Suv / 4*4,2500,3290000
+Toyota,Hilux,2007,2012,132800,3,Black,Diesel,used,Automatic,Suv / 4*4,3000,10975000
+Toyota,Hilux,2012,2014,152000,2,white,Diesel,used,Automatic,Suv / 4*4,3000,16550000
+Toyota,Hilux,2007,2010,198000,3,Black,Diesel,used,Automatic,Suv / 4*4,3000,11800000
+Toyota,Hilux,2019,2021,35000,1,Black,Diesel,used,Automatic,Suv / 4*4,2800,28990000
+Toyota,Hilux,2017,2017,85000,1,white,Diesel,used,Automatic,Suv / 4*4,2750,25750000
+Toyota,Hilux,1985,1987,336805,4,Gray,Diesel,used,Automatic,Hatchback,2200,1675000
+Toyota,Hilux,2010,2011,96000,2,white,Diesel,used,Manual,Suv / 4*4,3000,11500000
+Toyota,Hilux,2008,2012,145000,3,Black,Diesel,used,Manual,Suv / 4*4,3000,9000000
+Toyota,Hilux,1998,2000,190000,3,Gray,Diesel,used,Manual,Suv / 4*4,2500,3500000
+Toyota,Hilux,2007,2012,295000,3,Black,Diesel,used,Manual,Suv / 4*4,2982,9450000
+Toyota,Hilux,1994,1996,295000,4,Black,Diesel,used,Manual,Suv / 4*4,2800,6550000
+Toyota,Hilux,2018,2019,92000,2,white,Diesel,used,Automatic,Suv / 4*4,2800,27500000
+Toyota,Hilux,2020,2020,47000,1,white,Diesel,used,Automatic,Suv / 4*4,2800,31700000
+Toyota,Hilux,2017,2017,130000,2,white,Diesel,used,Automatic,Suv / 4*4,2800,22950000
+Toyota,Hilux,2017,2018,150000,1,silver,Diesel,used,Tiptronic,Suv / 4*4,2800,21800000
+Toyota,Hilux,2006,2008,210000,4,Black,Diesel,used,Manual,Suv / 4*4,2500,8850000
+Toyota,Hilux,2018,2019,7000,1,Black,Diesel,used,Manual,Suv / 4*4,2400,22500000
+Toyota,Hilux,2009,2009,117000,2,Black,Diesel,used,Manual,Suv / 4*4,2500,8400000
+Toyota,Hilux,2011,2012,169870,3,white,Diesel,used,Manual,Suv / 4*4,2400,8200000
+Toyota,Hilux,2020,2020,80000,1,Black,Diesel,used,Manual,Suv / 4*4,2800,30000000
+Toyota,Hilux,2012,2014,235000,4,Black,Diesel,used,Manual,Suv / 4*4,3000,13000000
+Toyota,Hilux,2018,2019,71000,2,white,Diesel,used,Automatic,Suv / 4*4,2755,26850000
+Toyota,Hilux,2007,2013,204000,3,white,Diesel,used,Manual,Saloon,2500,9200000
+Toyota,Hilux,2008,2014,142000,2,Black,Diesel,used,Automatic,Suv / 4*4,3000,14500000
+Toyota,Hilux,2010,2012,180000,2,white,Diesel,used,Manual,Saloon,2500,11000000
+Toyota,Hilux,1993,1995,185000,2,Black,Diesel,used,Manual,Suv / 4*4,2700,4575000
+Toyota,Hilux,2008,2010,168000,3,white,Diesel,used,Manual,Suv / 4*4,2500,13500000
+Toyota,Hilux,2018,2018,121000,2,Red,Diesel,used,Automatic,Suv / 4*4,2800,26850000
+Toyota,Hilux,1996,1998,150000,2,Gray,Diesel,used,Manual,Suv / 4*4,2770,5500000
+Toyota,Hilux,2017,2017,13500,1,Black,Diesel,used,Automatic,Suv / 4*4,3000,24500000
+Toyota,Hilux,2016,2018,122000,2,Black,Diesel,used,Manual,Suv / 4*4,2500,16250000
+Toyota,Hilux,2010,2011,167000,3,white,Diesel,used,Manual,Suv / 4*4,2494,12000000
+Toyota,Hilux,1992,1995,275000,4,Red,Diesel,used,Manual,Suv / 4*4,3000,4750000
+Toyota,Hilux,2009,2010,342000,4,silver,Diesel,used,Manual,Suv / 4*4,2500,6500000
+Toyota,Hilux,2016,2017,170000,2,Red,Diesel,used,Automatic,Suv / 4*4,3000,21000000
+Toyota,Hilux,2009,2011,142000,2,silver,Diesel,used,Manual,Suv / 4*4,2500,9450000
+Toyota,Hilux,2008,2011,180000,3,white,Diesel,used,Manual,Suv / 4*4,2800,7500000
+Toyota,Hilux,1986,1990,100000,1,Black,Diesel,used,Manual,Suv / 4*4,2500,2275000
+Toyota,Hilux,2006,2012,280000,4,Black,Diesel,used,Automatic,Suv / 4*4,3000,10800000
+Toyota,Hilux,2018,2019,70000,1,Black,Diesel,used,Manual,Suv / 4*4,2400,22500000
+Toyota,Hilux,1989,1991,35000,1,Black,Diesel,used,Manual,Suv / 4*4,2770,3100000
+Toyota,Hilux,2010,2012,187000,3,Red,Diesel,used,Manual,Suv / 4*4,2500,11250000
+Toyota,Hilux,2015,2015,157458,3,silver,Diesel,used,Manual,Suv / 4*4,2494,11550000
+Toyota,Hilux,2010,2012,193600,3,Black,Diesel,used,Manual,Suv / 4*4,3000,7950000
+Toyota,Hilux,2011,2012,310000,4,white,Diesel,used,Manual,Suv / 4*4,2500,11850000
+Toyota,Hilux,2010,2012,222000,3,Black,Diesel,used,Automatic,Suv / 4*4,3000,15250000
+Toyota,Hilux,2006,2012,160000,3,silver,Diesel,used,Manual,Suv / 4*4,2500,9650000
+Toyota,Hilux,2011,2012,152000,2,silver,Diesel,used,Manual,Suv / 4*4,2500,12500000
+Toyota,Hilux,2011,2015,182000,1,white,Diesel,used,Automatic,Suv / 4*4,3000,14400000
+Toyota,Hilux,2009,2010,192321,3,Black,Diesel,used,Automatic,Suv / 4*4,3000,14000000
+Toyota,Hilux,1996,1996,125000,1,Black,Diesel,used,Manual,Suv / 4*4,3000,4500000
+Toyota,Hilux,2008,2010,198000,2,white,Diesel,used,Manual,Suv / 4*4,3000,9900000
+Toyota,Hilux,2010,2011,280000,3,Black,Diesel,used,Manual,Suv / 4*4,2500,7250000
+Toyota,Hilux,2017,2019,87000,1,white,Diesel,used,Automatic,Suv / 4*4,2800,25000000
+Toyota,Hilux,2012,2015,284000,3,Black,Diesel,used,Manual,Suv / 4*4,3000,14900000
+Toyota,Hilux,1993,1995,149641,2,Red,Diesel,used,Automatic,Suv / 4*4,2800,4800000
+Toyota,Hilux,2008,2009,354000,4,silver,Diesel,used,Manual,Suv / 4*4,3000,7150000
+Toyota,Hilux,1992,1993,231511,2,Gray,Diesel,used,Manual,Suv / 4*4,2892,4250000
+Toyota,Hilux,2013,2014,143000,1,silver,Diesel,used,Manual,Suv / 4*4,2500,8500000
+Toyota,Hilux,1999,2000,300000,3,Black,Diesel,used,Manual,Suv / 4*4,2800,6175000
+Toyota,Hilux,2007,2009,397640,3,Black,Diesel,used,Manual,Suv / 4*4,2500,9200000
+Toyota,Hilux,2011,2014,139849,2,white,Diesel,used,Automatic,Suv / 4*4,3000,14800000
+Toyota,Hilux,2012,2016,220000,3,silver,Diesel,used,Manual,Suv / 4*4,2500,11200000
+Toyota,Hilux,1985,1987,250000,3,Red,Diesel,used,Manual,Suv / 4*4,2200,2025000
+Toyota,Hilux,1989,1990,194403,3,Black,Diesel,used,Manual,Suv / 4*4,2800,3800000
+Toyota,Hilux,2016,2018,122000,2,white,Diesel,used,Automatic,Suv / 4*4,2755,21200000
+Toyota,Hilux,2011,2013,200000,3,white,Diesel,used,Manual,Suv / 4*4,2982,12000000
+Toyota,Hilux,2017,2022,54425,1,silver,Diesel,used,Automatic,Suv / 4*4,2800,28500000
+Toyota,Hilux,2006,2008,270000,3,Red,Diesel,used,Manual,Suv / 4*4,2500,9250000
+Toyota,Hilux,2018,2019,125000,2,white,Diesel,used,Automatic,Suv / 4*4,2780,26000000
+Toyota,Hilux,2017,2019,210000,3,white,Diesel,used,Manual,Suv / 4*4,2393,10500000
+Toyota,Hilux,2001,2003,250000,3,Black,Diesel,used,Automatic,Suv / 4*4,3000,8200000
+Toyota,Hilux,1992,1995,260000,3,Red,Diesel,used,Manual,Suv / 4*4,2770,4900000
+Toyota,Hilux,1990,1992,205500,3,Black,Diesel,used,Manual,Suv / 4*4,2770,4775000
+Toyota,Hilux,2010,2010,151000,2,Black,Diesel,used,Manual,Suv / 4*4,2500,7250000
+Toyota,Hilux,2007,2013,145000,2,Red,Diesel,used,Manual,Suv / 4*4,2500,9800000
+Toyota,Hilux,2007,2008,209056,2,silver,Diesel,used,Manual,Suv / 4*4,2892,11500000
+Toyota,Hilux,1981,1983,335280,3,Blue,Diesel,used,Manual,Suv / 4*4,2188,14450000
+Toyota,Hilux,2016,2016,134000,1,Black,Diesel,used,Manual,Suv / 4*4,2500,17600000
+Toyota,Hilux,1994,1996,100000,1,Black,Diesel,used,Manual,Suv / 4*4,2800,3200000
+Toyota,Hilux,2018,2018,121000,1,white,Diesel,used,Automatic,Suv / 4*4,2800,26850000
+Toyota,Hilux,2016,2017,97000,1,Black,Diesel,used,Automatic,Suv / 4*4,2800,26800000
+Toyota,Hilux,2014,2016,219500,2,white,Diesel,used,Manual,Suv / 4*4,2500,13500000
+Toyota,Hilux,2012,2014,152000,2,white,Diesel,used,Automatic,Suv / 4*4,3000,16550000
+Toyota,Hilux,2016,2017,148000,2,white,Diesel,used,Automatic,Suv / 4*4,2800,22900000
+Toyota,Hilux,2008,2010,145500,2,Red,Diesel,used,Automatic,Suv / 4*4,3000,14200000
+Toyota,Hilux,2017,2019,79500,1,white,Diesel,used,Automatic,Suv / 4*4,2500,16900000
+Toyota,Hilux,2011,2013,162000,2,Black,Diesel,used,Automatic,Suv / 4*4,2500,13500000
+Toyota,Hilux,2015,2017,157458,2,Red,Diesel,used,Automatic,Suv / 4*4,2494,11550000
+Toyota,Hilux,2010,2013,25600,1,Black,Diesel,used,Automatic,Suv / 4*4,2500,12600000
+Toyota,Hilux,2020,2020,50700,1,white,Diesel,used,Automatic,Suv / 4*4,2800,33500000
+Toyota,prius,2011,2013,120000,2,white,Hybrid,used,Automatic,Hatchback,1800,9250000
+Toyota,prius,2012,2013,108400,3,Black,Petrol,used,Automatic,Saloon,1800,8390000
+Toyota,prius,2008,2009,277000,3,silver,Hybrid,used,Automatic,Saloon,1500,5695000
+Toyota,prius,2012,2013,80000,1,white,Petrol,used,Automatic,Saloon,1790,8490000
+Toyota,prius,2012,2017,165000,3,white,Hybrid,used,Automatic,sedan,1800,9250000
+Toyota,Prius,2014,2017,95925,2,white,Hybrid,used,Automatic,Hatchback,1800,10475000
+Toyota,Prius,2012,2017,190000,2,White,Hybrid,used,Automatic,Saloon,1500,9500000
+Toyota,Prius,2008,2011,277000,3,Gray,Hybrid,used,Automatic,Saloon,1500,5695000
+Toyota,prius,2013,2014,210000,2,Black,Hybrid,used,Automatic,Hatchback,1800,8825000
+Toyota,prius,2009,2010,178500,2,white,Hybrid,used,other transmission,saloon,1800,7975000
+Toyota,prius,2008,2015,146000,2,Gray,Petrol,used,Automatic,Saloon,1500,6285000
+Toyota,prius,2012,2014,120000,1,Blue,Hybrid,used,Automatic,Hatchback,1790,8900000
+Toyota,prius,2013,2015,126000,3,Black,Petrol,used,Automatic,Hatchback,1800,9395000
+Toyota,prius,2010,2011,148000,3,Light Blue,Hybrid,used,Automatic,Hatchback,1800,7500000
+Toyota,prius,2016,2017,120000,2,white,Hybrid,used,Automatic,Saloon,1500,14500000
+Toyota,prius,2008,2009,114000,2,Black,Petrol,used,Automatic,Saloon,1500,6400000
+Toyota,prius,2012,2013,120000,3,Light Blue,Hybrid,used,Automatic,Hatchback,1800,8850000
+Toyota,prius,2012,2013,80000,2,white,Hybrid,used,Automatic,Saloon,1790,8390000
+Toyota,prius,2009,2010,124500,2,Red,Hybrid,used,Automatic,Saloon,1800,7950000
+Toyota,prius,2013,2014,104746,3,white,Hybrid,used,Automatic,Saloon,1790,10350000
+Toyota,prius,2012,2013,126342,2,Black,Hybrid,used,Automatic,Saloon,1700,8250000
+Toyota,prius,2013,2014,113000,2,Black,Hybrid,used,Automatic,Saloon,1800,9250000
+Toyota,prius,2014,2014,105000,2,Gray,Hybrid,used,Automatic,Saloon,1800,9100000
+Toyota,prius,2012,2014,122433,2,white,Hybrid,used,Automatic,Hatchback,1790,8990000
+Toyota,prius,2009,2010,136000,1,Gray,Petrol,used,Automatic,Saloon,1790,7585000
+Toyota,prius,2011,2013,176800,2,Red,Hybrid,used,Automatic,Saloon,1500,6190000
+Toyota,prius,2012,2013,96000,1,Pearl White,Hybrid,used,Automatic,Saloon,1800,8790000
+Toyota,prius,2011,2012,284000,3,Gray,Petrol,used,Automatic,Saloon,1500,5850000
+Toyota,prius,2008,2009,117600,2,white,Petrol,used,Automatic,Saloon,1500,5900000
+Toyota,prius,2013,2014,145821,2,white,Hybrid,used,Automatic,Saloon,1700,10450000
+Toyota,prius,2011,2012,106000,2,Blue,Hybrid,used,Automatic,Hatchback,1700,7975000
+Toyota,prius,2010,2011,186000,3,Blue,Hybrid,used,Automatic,Hatchback,1800,7500000
+Toyota,prius,2011,2012,157000,2,Gray,Hybrid,used,Automatic,Saloon,1500,6495000
+Toyota,prius,2015,2015,138000,2,Black,Hybrid,used,Automatic,Saloon,1500,8475000
+Toyota,prius,2013,2016,99800,1,Gray,Hybrid,used,Automatic,Saloon,1800,9400000
+Toyota,prius,2013,2014,95000,2,Black,Hybrid,used,Automatic,Saloon,1800,10000000
+Toyota,prius,2011,2013,166000,3,Black,Hybrid,used,Automatic,Saloon,1800,8250000
+Toyota,prius,2013,2014,91555,3,Black,Hybrid,used,Automatic,Saloon,1800,8950000
+Toyota,prius,2012,2013,180000,3,white,Hybrid,used,Automatic,Saloon,1500,8950000
+Toyota,prius,2016,2016,93000,1,Red,Hybrid,used,Automatic,Hatchback,1800,15500000
+Toyota,prius,2016,2017,120000,2,white,Hybrid,used,Automatic,Saloon,1500,14500000
+Toyota,prius,2012,2013,160000,2,Gray,Petrol,used,Automatic,Saloon,1800,8175000
+Toyota,prius,2012,2013,192000,2,Gray,Hybrid,used,Automatic,Saloon,1800,8300000
+Toyota,prius,2017,2018,62493,1,Black,Petrol,used,Automatic,Saloon,2000,18500000
+Toyota,prius,2008,2009,160000,1,Gray,Petrol,used,Automatic,Saloon,1490,5850000
+Toyota,prius,2014,2014,94600,1,Red,Petrol,used,Automatic,Hatchback,1800,9900000
+Toyota,prius,2012,2013,167000,1,Light Blue,Petrol,used,Automatic,Saloon,1800,8200000
+Toyota,prius,2013,2015,150000,2,white,Petrol,used,Automatic,Saloon,1790,10500000
+Toyota,prius,2007,2008,140000,2,Gray,Petrol,used,Automatic,Saloon,1490,6000000
+Toyota,prius,2009,2012,176500,2,Black,Hybrid,used,Automatic,Hatchback,1800,7975000
+Toyota,prius,2011,2012,100800,2,Gray,Petrol,used,Automatic,Saloon,1500,5700000
+Toyota,prius,2013,2014,140000,2,Red,Hybrid,used,Automatic,Saloon,1790,9300000
+Toyota,prius,2008,2009,109982,3,Black,Petrol,used,Automatic,Saloon,1500,5750000
+Toyota,prius,2008,2010,119506,3,white,Petrol,used,Automatic,Saloon,1500,5885000
+Toyota,prius,2009,2010,195000,3,Light Blue,Petrol,used,Automatic,Saloon,1350,6950000
+Toyota,prius,2010,2011,148000,2,Black,Hybrid,used,Automatic,Saloon,1800,7050000
+Toyota,prius,2012,2014,95000,1,white,Hybrid,used,Automatic,Hatchback,1800,9750000
+Toyota,prius,2010,2012,123000,2,Black,Petrol,used,Automatic,Saloon,1800,7775000
+Toyota,prius,2013,2014,142765,3,Gray,Hybrid,used,Automatic,Hatchback,1800,8575000
+Toyota,prius,2008,2010,117000,3,Pearl White,Hybrid,used,Automatic,Hatchback,1500,5790000
+Toyota,prius,2008,2009,120000,2,white,Hybrid,used,Automatic,Saloon,1500,4950000
+Toyota,prius,2007,2009,128000,3,white,Hybrid,used,Automatic,Hatchback,1500,5650000
+Toyota,prius,2013,2014,110000,2,Black,Hybrid,used,Automatic,Saloon,1790,8790000
+Toyota,prius,2013,2015,150000,3,Pearl White,Hybrid,used,Automatic,Saloon,1800,9790000
+Toyota,prius,2012,2014,141250,2,Red,Hybrid,used,Automatic,Saloon,1800,8450000
+Toyota,prius,2013,2014,107000,3,Gray,Hybrid,used,Automatic,Saloon,1800,9450000
+Toyota,prius,2016,2016,86700,1,Pearl White,Hybrid,used,Automatic,Hatchback,1800,14895000
+Toyota,prius,2012,2013,80000,1,white,Hybrid,used,Automatic,Hatchback,1791,8390000
+Toyota,prius,2007,2011,173000,3,Pearl White,Hybrid,used,Automatic,Saloon,1490,5950000
+Toyota,prius,2013,2014,126000,2,Black,Petrol,used,Automatic,Hatchback,1800,9395000
+Toyota,prius,2013,2014,142000,2,Gray,Hybrid,used,Automatic,Hatchback,1800,835000
+Toyota,prius,2010,2011,145000,2,Gray,Hybrid,used,Automatic,Saloon,1800,7450000
+Toyota,prius,2013,2016,103000,2,Pearl White,Hybrid,used,Automatic,Hatchback,1800,9750000
+Toyota,prius,2013,2015,114000,2,Red,Hybrid,used,Automatic,Hatchback,1800,8975000
+Toyota,prius,2006,2015,221000,3,Blue,Hybrid,used,Automatic,Saloon,1800,5450000
+Toyota,prius,2012,2014,174000,2,Black,Hybrid,used,Automatic,Saloon,1800,7595000
+Toyota,prius,2008,2011,166000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1500,7850000
+Toyota,prius,2011,2013,163000,2,Red,Hybrid,used,Automatic,Hatchback,1800,7695000
+Toyota,prius,2011,2012,175000,2,Pearl White,Petrol,used,Automatic,Saloon,1800,7665000
+Toyota,prius,2013,2015,127500,2,Light Blue,Hybrid,used,Automatic,Saloon,1790,9000000
+Toyota,prius,2011,2013,156000,3,Gray,Hybrid,used,Automatic,Saloon,1500,6495000
+Toyota,prius,2013,2014,171000,2,Black,Hybrid,used,Automatic,Hatchback,1800,8450000
+Toyota,prius,2016,2017,132000,2,white,Hybrid,used,Automatic,Hatchback,1790,12200000
+Toyota,prius,2008,2009,150000,2,Gray,Hybrid,used,Automatic,Saloon,1500,5300000
+Toyota,prius,2009,2012,120000,2,Blue,Hybrid,used,Automatic,Saloon,1800,7150000
+Toyota,prius,2011,2013,157000,3,Gray,Hybrid,used,Automatic,Saloon,1500,6390000
+Toyota,prius,2013,2014,132000,2,Black,Hybrid,used,Automatic,Hatchback,1800,8390000
+Toyota,prius,2013,2014,105000,1,white,Petrol,used,Automatic,Saloon,1800,9250000
+Toyota,prius,2008,2010,277000,3,Gray,Petrol,used,Automatic,Saloon,1500,5695000
+Toyota,prius,2013,2014,119000,2,Pearl White,Hybrid,used,Automatic,Hatchback,1800,9475000
+Toyota,prius,2011,2012,120000,2,white,Hybrid,used,Automatic,Hatchback,1800,7875000
+Toyota,prius,2014,2015,128000,3,Pearl White,Hybrid,used,Automatic,Hatchback,1800,10300000
+Toyota,prius,2013,2014,151000,2,silver,Hybrid,used,Automatic,Saloon,1800,8390000
+Toyota,prius,2013,2014,132000,3,Black,Hybrid,used,Automatic,Saloon,1790,9250000
+Toyota,prius,2011,2013,170000,3,Pearl White,Hybrid,used,Automatic,Saloon,1800,7950000
+Toyota,prius,2012,2015,143000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1800,8650000
+Toyota,prius,2013,2015,181000,3,Pearl White,Petrol,used,Automatic,Saloon,1800,10350000
+Toyota,prius,2012,2014,115000,2,Pearl White,Hybrid,used,Automatic,Saloon,1800,8575000
+Toyota,prius,2011,2013,215000,3,Blue,Petrol,used,Automatic,Saloon,1790,8155000
+Toyota,prius,2012,2013,120000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1790,8900000
+Toyota,prius,2012,2014,133000,2,white,Petrol,used,Automatic,Saloon,1800,8530000
+Toyota,prius,2013,2015,89000,1,silver,Hybrid,used,Automatic,Saloon,1800,9375000
+Toyota,prius,2013,2014,180000,3,silver,Hybrid,used,Automatic,Hatchback,1800,8500000
+Toyota,Aqua,2013,2014,181000,3,Blue,Hybrid,used,Automatic,Hatchback,1500,6750000
+Toyota,Aqua,2013,2013,140000,2,silver,Hybrid,used,Automatic,Hatchback,1500,6900000
+Toyota,Aqua,2013,2015,115000,2,silver,Hybrid,used,Automatic,Hatchback,1499,6950000
+Toyota,Aqua,2015,2016,98000,1,silver,Petrol,used,Automatic,Hatchback,1500,9075000
+Toyota,Aqua,2013,2014,135000,2,white,Hybrid,used,Automatic,Hatchback,1500,7950000
+Toyota,Aqua,2015,2016,87000,1,white,Hybrid,used,Automatic,Hatchback,1000,8790000
+Toyota,Aqua,2013,2015,104000,1,Black,Hybrid,used,Automatic,Hatchback,1500,7550000
+Toyota,Aqua,2014,2015,139000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1500,7375000
+Toyota,Aqua,2012,2013,147000,2,Orange,Petrol,used,Automatic,Hatchback,1490,6575000
+Toyota,Aqua,2012,2013,136000,2,Red,Hybrid,used,Automatic,Hatchback,1500,6600000
+Toyota,Aqua,2012,2014,106000,1,Black,Hybrid,used,Automatic,Hatchback,1500,6875000
+Toyota,Aqua,2013,2015,123000,2,Light Blue,Petrol,used,Automatic,Hatchback,1500,7475000
+Toyota,Aqua,2013,2015,109000,2,Black,Petrol,used,Automatic,Hatchback,1500,7275000
+Toyota,Aqua,2013,2014,152000,3,white,Hybrid,used,Automatic,Hatchback,1500,6990000
+Toyota,Aqua,2014,2015,59000,1,Orange,Hybrid,used,Automatic,Hatchback,1500,7790000
+Toyota,Aqua,2014,2016,130000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1500,7480000
+Toyota,Aqua,2015,2016,116000,2,white,Petrol,used,Automatic,Hatchback,1500,8750000
+Toyota,Aqua,2015,2017,117000,2,white,Hybrid,used,Automatic,Hatchback,1500,8990000
+Toyota,Aqua,2015,2016,140000,2,Black,Petrol,used,Automatic,Hatchback,1500,9050000
+Toyota,Aqua,2015,2016,89000,1,white,Hybrid,used,Automatic,Hatchback,1500,9090000
+Toyota,Aqua,2013,2013,96000,1,white,Petrol,used,Automatic,Hatchback,1500,1095000
+Toyota,Aqua,2012,2015,90000,1,silver,Hybrid,used,Automatic,Hatchback,1500,7850000
+Toyota,Aqua,2010,2012,65000,1,Red,Hybrid,used,Automatic,Hatchback,1500,8550000
+Toyota,Aqua,2011,2014,70000,1,white,Hybrid,used,Automatic,Hatchback,1500,9750000
+Toyota,Aqua,2015,2016,86000,2,Black,Hybrid,used,Automatic,Hatchback,1500,6950000
+Toyota,Aqua,2015,2017,170000,3,Blue,Hybrid,used,Automatic,Hatchback,1500,7150000
+Toyota,Aqua,2014,2016,56000,1,Light Blue,Hybrid,used,Automatic,Hatchback,1500,9000000
+Toyota,Aqua,2016,2018,121000,2,Blue,Hybrid,used,Automatic,Hatchback,1500,8570000
+Toyota,Aqua,2012,2014,181000,3,Blue,Hybrid,used,Automatic,Hatchback,1500,6750000
+Toyota,Aqua,2013,2013,140000,2,silver,Hybrid,used,Automatic,Hatchback,1500,6900000
+Toyota,Aqua,2014,2015,115000,2,silver,Hybrid,used,Automatic,Hatchback,1499,6950000
+Toyota,Aqua,2016,2016,98000,1,silver,Petrol,used,Automatic,Hatchback,1500,9075000
+Toyota,Aqua,2013,2014,125000,2,Black,Hybrid,used,Automatic,Hatchback,1500,7950000
+Toyota,Aqua,2015,2016,87000,1,Black,Hybrid,used,Automatic,Hatchback,1000,8790000
+Toyota,Aqua,2013,2015,104000,1,white,Hybrid,used,Automatic,Hatchback,1500,7550000
+Toyota,Aqua,2014,2015,139000,2,Blue,Hybrid,used,Automatic,Hatchback,1500,7375000
+Toyota,Aqua,2012,2013,147000,2,Red,Petrol,used,Automatic,Hatchback,1490,6575000
+Toyota,Aqua,2012,2013,136000,2,Orange,Hybrid,used,Automatic,Hatchback,1500,6600000
+Toyota,Aqua,2012,2014,106000,1,white,Hybrid,used,Automatic,Hatchback,1500,6875000
+Toyota,Aqua,2013,2015,123000,2,Light Blue,Hybrid,used,Automatic,Hatchback,1500,7475000
+Toyota,Aqua,2013,2015,109000,2,white,Petrol,used,Automatic,Hatchback,1500,7275000
+Toyota,Aqua,2013,2014,152000,3,Black,Hybrid,used,Automatic,Hatchback,1500,6990000
+Toyota,Aqua,2014,2015,59000,1,Orange,Petrol,used,Automatic,Hatchback,1500,7790000
+Toyota,Aqua,2014,2016,130000,2,Blue,Hybrid,used,Automatic,Hatchback,1500,7480000
+Toyota,Aqua,2015,2016,116000,2,Black,Petrol,used,Automatic,Hatchback,1500,8750000
+Toyota,Aqua,2015,2017,117000,2,Black,Hybrid,used,Automatic,Hatchback,1500,8990000
+Toyota,Aqua,2015,2016,140000,2,white,Petrol,used,Automatic,Hatchback,1500,9050000
+Toyota,Aqua,2015,2016,88000,1,white,Hybrid,used,Automatic,Hatchback,1500,9090000
+Toyota,Aqua,2013,2013,95000,1,white,Petrol,used,Automatic,Hatchback,1500,1095000
+Toyota,Aqua,2012,2015,91000,1,silver,Hybrid,used,Automatic,Hatchback,1500,7850000
+Toyota,Aqua,2010,2012,67000,1,Red,Hybrid,used,Automatic,Hatchback,1500,8550000
+Toyota,Aqua,2011,2014,71000,1,white,Hybrid,used,Automatic,Hatchback,1500,9750000
+Toyota,Aqua,2015,2016,85000,2,Black,Hybrid,used,Automatic,Hatchback,1500,6950000
+Toyota,Aqua,2015,2017,171000,3,Blue,Hybrid,used,Automatic,Hatchback,1500,7150000
+Toyota,Aqua,2014,2016,57000,1,Light Blue,Hybrid,used,Automatic,Hatchback,1500,9000000
+Toyota,Aqua,2016,2018,123000,2,Blue,Hybrid,used,Automatic,Hatchback,1500,8570000
+Toyota,Aqua,2013,2015,135000,2,Orange,Hybrid,used,Automatic,Hatchback,1500,9500000
+Toyota,Axio,2016,2017,105000,1,Brown,Hybrid,used,Automatic,Saloon,1500,11290000
+Toyota,Axio,2015,2016,150000,1,Black,Hybrid,used,Automatic,Saloon,1500,10600000
+Toyota,Axio,2017,2018,87127,1,Black,Hybrid,used,Automatic,Saloon,1490,13190000
+Toyota,Axio,2017,2017,77500,1,Black,Hybrid,used,Automatic,sedan,1490,13300000
+Toyota,Axio,2014,2015,127000,2,Wine Red,Hybrid,used,Automatic,Saloon,1500,9290000
+Toyota,Axio,2011,2013,141000,2,Gray,Petrol,used,Automatic,Saloon,1500,7950000
+Toyota,Axio,2014,2014,152000,2,Wine Red,Hybrid,used,Automatic,saloon,1450,9275000
+Toyota,Axio,2019,2019,52000,2,white,Hybrid,used,Automatic,saloon,1490,15990000
+Toyota,Axio,2015,2016,162000,2,Wine Red,Petrol,used,Automatic,Saloon,1500,11650000
+Toyota,Axio,2017,2018,97000,1,white,Petrol,used,Automatic,Saloon,1500,14950000
+Toyota,Axio,2018,2019,95000,2,Orange,Hybrid,used,Automatic,Saloon,1500,13100000
+Toyota,Axio,2015,2017,76000,1,white,Hybrid,used,Automatic,Saloon,1500,8900000
+Toyota,Axio,2015,2016,150000,1,white,Hybrid,used,Automatic,Saloon,1500,10600000
+Toyota,Axio,2014,2016,164000,2,white,Hybrid,used,Automatic,Saloon,1499,8900000
+Toyota,Axio,2015,2017,105000,2,white,Petrol,used,Automatic,Saloon,1500,10890000
+Toyota,Axio,2011,2013,140000,2,Black,Petrol,used,Automatic,Saloon,1500,7950000
+Toyota,Axio,2015,2017,96000,1,Maroon,Petrol,used,Automatic,Saloon,1500,9450000
+Toyota,Axio,2014,2016,151000,2,Red,Hybrid,used,Automatic,Saloon,1450,9350000
+Toyota,Axio,2015,2018,104000,2,white,Hybrid,used,Automatic,Saloon,1500,11375000
+Toyota,Axio,2015,2017,69000,2,Black,Hybrid,used,Automatic,Saloon,1500,98500000
