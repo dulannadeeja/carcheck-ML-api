@@ -6,7 +6,7 @@ def individual_serializer(vehicle) -> dict:
         'manufacturedYear': vehicle['manufacturedYear'],
         'registeredYear': vehicle['registeredYear'],
         'mileage': vehicle['mileage'],
-        'previousOwners': vehicle['numberOfPreviousOwners'],
+        'numberOfPreviousOwners': vehicle['numberOfPreviousOwners'],
         'exteriorColor': vehicle['exteriorColor'].lower(),
         'fuelType': vehicle['fuelType'].lower(),
         'condition': vehicle['condition'].lower(),

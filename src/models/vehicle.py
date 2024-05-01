@@ -15,3 +15,17 @@ class Vehicle(BaseModel):
     bodyType: str
     engineCapacity: int
     value: int
+    
+class InputFeatures(BaseModel):
+    make: str
+    vehicleModel: str
+    manufacturedYear: int
+    registeredYear: int
+    mileage: int
+    numberOfPreviousOwners: int
+    exteriorColor: str
+    fuelType: str
+    condition: str
+    transmission: str
+    bodyType: str
+    engineCapacity: int

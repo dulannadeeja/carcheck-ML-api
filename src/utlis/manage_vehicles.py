@@ -21,6 +21,7 @@ class VehicleManager:
                     self.isfile_exist = True  # Update file existence status after writing header
                 for vehicle in vehicles:
                     vehicle.pop('_id', None)
+                    # append the vehicle to the csv file
                     writer.writerow(vehicle)
             print(f"Vehicles saved to {self.file_path}")
         except PermissionError:
