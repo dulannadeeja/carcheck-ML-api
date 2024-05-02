@@ -6,26 +6,52 @@ from joblib import load
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from joblib import dump
+import os
+import logging
+from sklearn.metrics import r2_score
+from models.modelInfo import ModelInfo
+import datetime
+from config.connection import model_info_collection
+
+# Setup basic configuration for logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class CarPricePredictor:
-    def __init__(self, data_path):
-        self.data_path = data_path
+    def __init__(self, 
+                 sample_data_path:str, 
+                 clean_data_path:str,
+                 mappings_path:str,
+                 model_path:str,
+                 feature_scaler_path:str,
+                 value_scaler_path:str,
+                 vehicles_path:str,
+                 saved_vehicle_ids_path:str
+                 ):
+        self.sample_data_path = sample_data_path
+        self.clean_data_path = clean_data_path
+        self.mappings_path = mappings_path
+        self.model_path = model_path
+        self.vehicle_path = vehicles_path
+        self.saved_vehicle_ids_path = saved_vehicle_ids_path
+        self.feature_scaler_path = feature_scaler_path
+        self.value_scaler_path = value_scaler_path
         self.model = LinearRegression()
         self.column_value_mappings = {}
         
      # Cleanup and prepare data for analysis    
+    
     def preprocess_data(self):
+        # Load the dataset
+        df = pd.read_csv(self.vehicle_path)
         
-        dataset_path = 'data/vehicles.csv'
-        result_path = 'data/car_price_dataset_cleaned.csv'
-        df = pd.read_csv(dataset_path)
+        print(df.head())
         
         # Converting all string columns to lowercase except for the headers
         df = df.map(lambda x: x.lower() if isinstance(x, str) else x)
         
         #drop duplicates and missing values
-        df.dropna(inplace=True)
-        df.drop_duplicates(inplace=True)
+        df.dropna()
+        df.drop_duplicates()
         
         #list down all the unique values in the columns
         # Looping through each column and printing unique values
@@ -110,17 +136,17 @@ class CarPricePredictor:
         features_scaler = MinMaxScaler()
         features_df = df.drop(columns=['value'])
         features_df = pd.DataFrame(features_scaler.fit_transform(features_df), columns=features_df.columns)
-        dump(features_scaler, 'ml_model/features_scaler.joblib')
+        dump(features_scaler, self.feature_scaler_path)
         
         #overwrite the original dataframe with the scaled values
         df = pd.concat([features_df, df['value']], axis=1)
         
         value_scaler = MinMaxScaler()
         df['value'] = value_scaler.fit_transform(df[['value']])
-        dump(value_scaler, 'ml_model/value_scaler.joblib')
+        dump(value_scaler, self.value_scaler_path)
         
         #save the cleaned dataset
-        df.to_csv(result_path, index=False)
+        df.to_csv(self.clean_data_path, index=False)
         
         # Display the modified DataFrame
         print(df.head())
@@ -135,13 +161,30 @@ class CarPricePredictor:
         x_train, x_test, y_train, y_test = train_test_split(self.input_data, self.output_data, test_size=0.2)
         self.model.fit(x_train, y_train)
         # evaluate the model
-        score = self.model.score(x_test, y_test)
-        print(f"Model score: {score}")
+        # Predict the target variable for the test data
+        y_pred = self.model.predict(x_test)
+
+        # Calculate the R-squared value
+        r_squared = r2_score(y_test, y_pred)
+
+        # Convert R-squared to a percentage
+        r_squared_percentage = np.round(r_squared * 100, 2)
         
+        #count the number of rows in the dataset
+        num_rows = len(self.input_data)
+        
+        #save model info to the database
+        self.save_model_info(r_squared_percentage, num_rows)
+        
+        return {
+            "r_squared": r_squared_percentage,
+            "num_rows": num_rows
+        }
         
     def load_model(self, model_path):
         with open(model_path, 'rb') as file:
             self.model = pickle.load(file)
+    
     def load_mappings(self, mappings_path):
         with open(mappings_path, 'rb') as file:
             self.column_value_mappings = pickle.load(file)
@@ -171,7 +214,7 @@ class CarPricePredictor:
         
         # normalize the input features
         # input features does not have the value column
-        features_scaler = load('ml_model/features_scaler.joblib')
+        features_scaler = load(self.feature_scaler_path)
         input_df = pd.DataFrame(features_scaler.transform(input_df), columns=input_df.columns)
         print (input_df)
         
@@ -182,13 +225,13 @@ class CarPricePredictor:
         # Reshape the output to match the expected input shape of the scaler
         normalized_model_output = normalized_model_output.reshape(-1, 1)
 
-        value_scaler = load('ml_model/value_scaler.joblib')
+        value_scaler = load(self.value_scaler_path)
         # Denormalize the output using the inverse transform of the scaler
         denormalized_output = value_scaler.inverse_transform(normalized_model_output)
     
         print (denormalized_output)
+        return denormalized_output[0][0]
         
-    
     def print_mappings(self):
         for col, mapping in self.column_value_mappings.items():
             print(f"Column '{col}' string to number mapping:")
@@ -196,8 +239,45 @@ class CarPricePredictor:
                 print(f"  '{string_val}' -> {num_val}")
             print("======================")
             
-    def get_mappings(self, column_name, input_value):
+    def get_mappings(self, column_name):
         return column_name
+    
+    def clean_model(self,):
+        # Clean up the model and resources
+        self.model = LinearRegression()
+        self.column_value_mappings = {}
         
-
+        # List of paths to delete
+        paths_to_delete = [
+            self.clean_data_path, 
+            self.mappings_path,
+            self.model_path, 
+            self.feature_scaler_path, 
+            self.value_scaler_path, 
+            self.vehicle_path, 
+            self.saved_vehicle_ids_path
+        ]
+        
+        # Delete the saved files
+        for path in paths_to_delete:
+            try:
+                if os.path.exists(path):
+                    os.remove(path)
+                    logging.info(f"Successfully removed {path}")
+                else:
+                    logging.warning(f"No file found to remove at: {path}")
+            except Exception as e:
+                logging.error(f"Failed to remove {path}. Error: {e}")
+        
+    def save_model_info(self, accuracy:float, num_rows:int):
+        current_datetime = datetime.datetime.now()
+        model_info:ModelInfo = ModelInfo(
+            operationDate=current_datetime.strftime("%Y-%m-%d %H:%M:%S"),
+            version='1.0.0',
+            accuracy=accuracy,
+            totalRecords=num_rows
+            )
+        record = model_info.model_dump()
+        model_info_collection.insert_one(record)
+        print("Model info saved successfully")
 

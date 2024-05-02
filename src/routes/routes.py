@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from config.connection import listing_collection
+from config.connection import listing_collection, model_info_collection
 from schema.schemas import list_serializer
 from models.vehicle import InputFeatures
 import pprint
@@ -9,17 +9,34 @@ import pprint
 import pandas as pd
 from predictor import CarPricePredictor
 
+# define the paths
+model_path = 'ml_model/model.pkl'
+model_mappings_path = 'ml_model/mappings.pkl'
+sample_data_path = 'data/car_price_dataset.csv'
+cleaned_data_path = 'data/car_price_dataset_cleaned.csv'
+vehicles_path = 'data/vehicles.csv'
+saved_vehicle_ids_path = 'data/saved_vehicle_ids.csv'
+feature_scaler_path = 'ml_model/features_scaler.joblib'
+value_scaler_path = 'ml_model/value_scaler.joblib'
+
 router = APIRouter()
 
 printer = pprint.PrettyPrinter(indent=4)
 
-vehicleManager = VehicleManager()
-vehicleIdManager = VehicleIDManager()
-predictor = CarPricePredictor('data/car_price_dataset_cleaned.csv')
+vehicleManager = VehicleManager(vehicles_path)
+vehicleIdManager = VehicleIDManager(saved_vehicle_ids_path)
+predictor = CarPricePredictor(
+    sample_data_path,
+    cleaned_data_path,
+    model_mappings_path,
+    model_path,
+    feature_scaler_path,
+    value_scaler_path,
+    vehicles_path,
+    saved_vehicle_ids_path,
+)
 
-# define the path to the model
-model_path = 'ml_model/model.pkl'
-model_mappings_path = 'ml_model/mappings.pkl'
+
 
 printer = pprint.PrettyPrinter(indent=4)
 
@@ -39,11 +56,16 @@ async def predict(data: InputFeatures):
         raise HTTPException(status_code=500, detail=str(e))
     
 
-@router.post("/api/sync-data")
+@router.put("/api/sync-data")
 async def sync_data():
     try:
         #read the data from the database
         vehicles_documents = listing_collection.find()
+        
+        #if there are no vehicles in the database, return
+        first_vehicle = next(vehicles_documents, None)
+        if first_vehicle is None:
+            return {"message": "No data to sync"}
         
         serialized_vehicles = list_serializer(vehicles_documents)
         
@@ -71,7 +93,7 @@ async def sync_data():
         print(f"Error: {e}")
         raise HTTPException(status_code=500, detail=str(e)) 
     
-@router.post("/api/process-data")
+@router.get("/api/process-data")
 async def clean_data():
     try:
         predictor.preprocess_data()
@@ -82,14 +104,11 @@ async def clean_data():
         raise HTTPException(status_code=500, detail=str(e)) 
 
 
-@router.post("/api/load-external-data")
+@router.get("/api/load-initial-data")
 async def load_external_data():
     try:
-        # Load the dataset from the CSV file
-        dataset_path = 'data/car_price_dataset.csv'
-        
         # Load the dataset
-        df = pd.read_csv(dataset_path)
+        df = pd.read_csv(sample_data_path)
         
         #drop the last two columns
         df = df.drop(columns=['Unnamed: 13', 'Unnamed: 14'])
@@ -106,22 +125,60 @@ async def load_external_data():
         #save the vehicles
         vehicleManager.save_vehicles(vehicles)
         
+        return {"message": "Initial data loaded successfully"}
+        
     except Exception as e:
         print(f"Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))    
     
 
-@router.post("/api/train-model")
+@router.get("/api/train-model")
 async def train_model():
     try:
         predictor.preprocess_data()
-        predictor.train_model()
+        result = predictor.train_model()
         predictor.save_model(model_path)
         predictor.save_mappings(model_mappings_path)
         
-        return {"message": "Model trained successfully"}
+        r_Squared = result['r_squared']
+        num_rows = result['num_rows']
+        
+        return {
+            "message": "Model trained successfully",
+            "r_squared": r_Squared,
+            "num_rows": num_rows
+            }
         
     except Exception as e:
         print(f"Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
     
+
+@router.delete("/api/clean")
+async def clean():
+    try:
+        predictor.clean_model()
+        return {"message": "Model cleaned successfully"}
+    except Exception as e:
+        print(f"Error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+    
+
+@router.get("/api/model-info")
+async def model_info():
+    try:
+        #find the latest model info doc from the model_info collection
+        model_info = model_info_collection.find_one(sort=[("operationDate", -1)])
+        if model_info is None:
+            return {"message": "No model info available"}
+        
+        return {
+            'message': "Model info retrieved successfully",
+            'opearationDate': model_info['operationDate'],
+            'version': model_info['version'],
+            'accuracy': model_info['accuracy'],
+            'totalRecords': model_info['totalRecords']
+        }
+    except Exception as e:
+        print(f"Error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))    

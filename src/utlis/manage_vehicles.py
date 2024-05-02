@@ -1,11 +1,10 @@
-from pydantic import BaseModel
 import csv
 import os
 from models.vehicle import Vehicle
 
 # Vehicle management class for handling CSV file operations
 class VehicleManager:
-    def __init__(self, file_path='data/vehicles.csv'):
+    def __init__(self, file_path: str):
         self.file_path = file_path
         os.makedirs(os.path.dirname(self.file_path), exist_ok=True)  # Ensure the directory exists
         self.isfile_exist = os.path.isfile(self.file_path) and os.path.getsize(self.file_path) > 0
@@ -16,9 +15,12 @@ class VehicleManager:
             with open(self.file_path, mode=self.mode, newline='') as file:
                 fieldnames = [field for field in Vehicle.model_fields.keys()]
                 writer = csv.DictWriter(file, fieldnames=fieldnames)
-                if self.mode == 'w':
+                #if file exists read the file
+                file = open(self.file_path, 'r')
+                reader = csv.reader(file)
+                #check if the file is empty
+                if len(list(reader)) == 0:
                     writer.writeheader()
-                    self.isfile_exist = True  # Update file existence status after writing header
                 for vehicle in vehicles:
                     vehicle.pop('_id', None)
                     # append the vehicle to the csv file

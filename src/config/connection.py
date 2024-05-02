@@ -1,7 +1,6 @@
 
 from dotenv import load_dotenv, find_dotenv
 import os
-import pprint
 from pymongo import MongoClient
 
 load_dotenv(find_dotenv())
@@ -16,6 +15,7 @@ uri = f"""mongodb+srv://{username}:{password}@{cluster}/node_project?retryWrites
 client = MongoClient(uri)
 database = client['node_project']
 listing_collection = database['listings']
+model_info_collection = database['model_info']
 
 print("Connected to MongoDB")
 

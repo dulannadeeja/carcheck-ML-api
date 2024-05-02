@@ -2,7 +2,7 @@ import csv
 import os
 
 class VehicleIDManager:
-    def __init__(self, file_path='data/saved_vehicle_ids.csv'):
+    def __init__(self, file_path: str):
         self.file_path = file_path
         # Ensure the directory exists
         os.makedirs(os.path.dirname(self.file_path), exist_ok=True)
