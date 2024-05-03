@@ -25,13 +25,14 @@ jobs:
     - name: Install dependencies
       run: |
         if [ -f requirements.txt ]; then
-        if command -v python3 &>/dev/null; then
-            python3 -m pip install --upgrade pip -r requirements.txt
-        elif command -v pip3 &>/dev/null; then
-            pip3 install --upgrade pip -r requirements.txt
-        else
-            echo "Unable to find Python or pip executable."
-            exit 1
+          if command -v python3 &>/dev/null; then
+              python3 -m pip install --upgrade pip -r requirements.txt
+          elif command -v pip3 &>/dev/null; then
+              pip3 install --upgrade pip -r requirements.txt
+          else
+              echo "Unable to find Python or pip executable."
+              exit 1
+          fi
         fi
         
     - name: Lint with flake8
