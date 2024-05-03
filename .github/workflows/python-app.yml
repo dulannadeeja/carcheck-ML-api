@@ -17,11 +17,6 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Debug Secret Content
-      env:
-        SECRET_FILE_CONTENT: ${{ secrets.ML_MODEL_SECRETS }}
-      run: echo "Secret Content: $SECRET_FILE_CONTENT"
-
-    - name: Write .env file from secret
-      env:
-        SECRET_FILE_CONTENT: ${{ secrets.ML_MODEL_SECRETS }}
-      run: echo "$SECRET_FILE_CONTENT" > src/.env
+      run: |
+        touch src/.env
+        echo "${{ secrets.ML_MODEL_SECRETS }}" > src/.env
