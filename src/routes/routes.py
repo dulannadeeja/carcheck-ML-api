@@ -59,15 +59,19 @@ async def predict(data: InputFeatures):
 @router.put("/api/sync-data")
 async def sync_data():
     try:
+        printer.pprint("Syncing data")
         #read the data from the database
-        vehicles_documents = listing_collection.find()
+        vehicles_documents = listing_collection.find({"status": {"$ne": "Draft"}})
         
-        #if there are no vehicles in the database, return
-        first_vehicle = next(vehicles_documents, None)
-        if first_vehicle is None:
-            return {"message": "No data to sync"}
+        # filter the required fields from the cursor
+        expected_fields = ['_id', 'make', 'vehicleModel','manufacturedYear','registeredYear','mileage','numberOfPreviousOwners','exteriorColor','fuelType','condition','transmission','bodyType','engineCapacity','currentPrice']  # Define your expected field names
+        filtered_vehicles = []
+        for vehicle in vehicles_documents:
+            filtered_vehicle = {key: vehicle[key] for key in expected_fields if key in vehicle}
+            filtered_vehicles.append(filtered_vehicle)  
         
-        serialized_vehicles = list_serializer(vehicles_documents)
+       # serialize the vehicles
+        serialized_vehicles = list_serializer(filtered_vehicles)
         
         saved_vehicle_ids = vehicleIdManager.read_vehicle_ids()
         printer.pprint(saved_vehicle_ids)
